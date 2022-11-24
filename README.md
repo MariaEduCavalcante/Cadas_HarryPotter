@@ -1,4 +1,4 @@
-# Cadastro HarryPotter
+# Cadastro Harry Potter
 
 Aplicação de cadastro de usuário com a temática Harry Potter
 
