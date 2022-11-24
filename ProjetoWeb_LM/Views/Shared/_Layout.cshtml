@@ -16,7 +16,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Projeto 2DS", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                <div class="navbar">
+                @Html.ActionLink("Harry Potter", "Index", "Home", new { area = "" }, new { @class = "navbar-brand", @id = "harry"})
+                </div>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
