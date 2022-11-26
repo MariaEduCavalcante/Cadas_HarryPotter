@@ -1,0 +1,214 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    
+}
+
+
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+
+.fundo img{
+    max-width:120%;
+    margin-left:-120px;
+    min-height:150%;
+    margin-top:100px
+}
+
+.fundo {
+    height:1100px
+
+}
+
+.tudo {
+    margin-top:-1950px;
+}
+
+
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    background-color: #fff;
+    border-color: #fff;
+    
+}
+
+.navbar {
+    background-color: #fff0;
+    border: none;
+    margin-top: 50px;
+    color: #000000;
+    display: flow;
+    height: 20px;
+}
+
+.jumbotron{
+
+    background-color:#fff0;
+}
+
+    .jumbotron img {
+    
+        height:500px;
+        width:750px;
+        margin-left:400px;
+        margin-top:-220px;
+ 
+}
+
+.navbar-brand{
+
+    margin-top:-50px;
+    margin-left:50px
+
+}
+
+@font-face {
+    font-family: "font1";
+    src: url("fonts/font1.TTF");
+
+}
+
+@font-face {
+    font-family: "font2";
+    src: url("fonts/font2.ttf");
+}
+
+#harry {
+
+    color:#2c2c2c;
+    font-family: "font1";
+    font-size: 70px;
+    height:20px;
+
+}
+
+#home, #cadastro, #resultado{
+    color: #2c2c2c;
+    font-family: "font2";
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.btnhome1 {
+    margin-top:980px;
+;
+}
+
+.btnhome {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #C0782C;
+    color: white;
+    border: 1px solid #C0782C;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.texthome {
+    margin-top: -400px;
+    max-width: 410px;
+    color: #2c2c2c;
+    font-family: sans;
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+.hp img {
+    margin-left:1130px;
+    width:70px;
+    height:70px;
+    margin-top:-180px;
+
+}
+
+.imghome1 img {
+    height:210px;
+    width:300px;
+    margin-left:-10px;
+}
+
+.hist{
+    margin-top:70px;
+    margin-left:150px;
+}
+
+.hist img{
+    width:50%;
+    margin-left:-255px;
+    margin-top:-70px;
+}
+
+    .hist h2 {
+        text-align: center;
+        margin-bottom: 0px;
+        color: #94631c;
+        font-family: font2;
+        font-weight: bold;
+        font-size: 40px;
+        text-shadow: 0.1em 0.1em 0.2em #efd54573;
+    }
+
+.hist p {
+    max-width: 930px;
+    color: #2c2c2c;
+    font-family: sans;
+    font-size: 19px;
+    text-align: justify;
+    margin-top:-280px;
+    margin-left:20px;
+
+}
+
+.personagens {
+    margin-top: 100px;
+    margin-left: 10px;
+}
+
+.personagens h2 {
+    text-align: center;
+    margin-bottom: 0px;
+    color: #94631c;
+    font-family: font2;
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: 0.1em 0.1em 0.2em #efd54573;
+}
+
+.personagens img {
+    min-width:30%;
+    margin-left:-70px;
+    height:600px;
+    margin-top:-50px;
+}
+
+.personagenimg img{
+    width:640px;
+    height:600px;
+    margin-left:280px;
+    margin-top:-550px;
+}
+
+footer img {
+    width:150px;
+    height:50px;
+    margin-top:-15px;
+}
+
+/*Página Cadastro*/

@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Meu Aplicativo ASP.NET</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" title="mais opções">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="navbar">
+                    @Html.ActionLink("Harry Potter", "Index", "Home", new { area = "" }, new { @class = "navbar-brand", @id = "harry" })
+
+                </div>
+
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Index", "Home", new { @id = "home" })</li>
+                    <li>@Html.ActionLink("Cadastro", "Usuario", "Home", new { @id = "cadastro" })</li>
+                    <li>@Html.ActionLink("Resultado", "Resultado", "Home", new { @id = "resultado" })</li>
+                </ul>
+            </div>
+            <div class="hp">
+                <img src="~/Controllers/img/hp.png" />
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <center>
+        <footer>
+            <img src="~/Controllers/img/redes.png">
+            <p>&copy; @DateTime.Now.Year - Harry Potter</p>
+        </footer>
+            </center>
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
