@@ -107,7 +107,7 @@ textarea {
 
 .btnhome1 {
     margin-top:980px;
-;
+
 }
 
 .btnhome {
@@ -212,3 +212,60 @@ footer img {
 }
 
 /*Página Cadastro*/
+
+.form-horizontal {
+    margin-top:-560px;
+    margin-left: 0px;
+}
+
+.fundo1 img {
+    min-width: 119.7%;
+    margin-left:-120px;
+    height:980px;
+    margin-top:-340px;
+}
+
+.form2{
+   text-align:left;
+   margin-top:-343px;
+   float:right;
+   width:1500px;
+}
+
+.form{
+    margin-right:-420em;
+}
+
+#btncadastrar{
+    padding:10px 20px;
+    margin-left:980px;
+}
+
+.sla{
+    margin-top:-600px;
+}
+
+.sla dt{
+    margin-top:15px;
+    color:black;
+}
+
+    .sla dd {
+        margin-top: 15px;
+        color: black;
+    }
+
+.resultado img{
+    width:550px;
+    height:600px;
+    margin-top:-550px;
+    margin-left:600px;
+}
+
+#voltar{
+    margin-top:-50px;
+}
+
+#nome{
+    margin-top:10px;
+}

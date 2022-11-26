@@ -139,6 +139,8 @@
     <Content Include="Controllers\img\pacos.png" />
     <Content Include="Controllers\img\personagens.png" />
     <Content Include="Controllers\img\redes.png" />
+    <Content Include="Controllers\img\resultado.png" />
+    <Content Include="Controllers\img\resultadoimg.png" />
     <Content Include="Controllers\img\varinhahome.png" />
     <Content Include="favicon.ico" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />

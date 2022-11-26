@@ -4,13 +4,14 @@
     ViewBag.Title = "Resultado";
 }
 
-<h2>Listar usuário</h2>
+<div class="fundo1">
+    <img src="~/Controllers/img/fundo.png">
+</div>
+<div class="sla">
 
-<div>
-    <h4>Usuario</h4>
     <hr />
     <dl class="dl-horizontal">
-        <dt>
+        <dt id="nome">
             @Html.DisplayNameFor(model => model.NomeUsuario)
         </dt>
 
@@ -58,9 +59,43 @@
             @Html.DisplayFor(model => model.ConfSenha)
         </dd>
 
+        <dt>
+            @Html.DisplayNameFor(model => model.Livro)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Livro)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Filme)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Filme)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Casa)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Casa)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Pet)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Pet)
+        </dd>
+
     </dl>
 </div>
-<p>
-    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+<div class="resultado">
+    <img src="~/Controllers/img/resultado.png">
+</div>
+<p id="voltar">
     @Html.ActionLink("Voltar", "Index")
 </p>

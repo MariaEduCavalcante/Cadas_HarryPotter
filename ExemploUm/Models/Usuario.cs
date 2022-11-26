@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ExemploUm.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -34,35 +35,25 @@ namespace ExemploUm.Models
         public string Senha { get; set; }
 
         [Display(Name = "Confirme sua senha")]
-        [System.ComponentModel.DataAnnotations.Compare("Senha" , ErrorMessage = "A senha não corresponde")]
+        [System.ComponentModel.DataAnnotations.Compare("Senha", ErrorMessage = "A senha não corresponde")]
         public string ConfSenha { get; set; }
 
-        [Display(Name = "Escolha sua Casa")]
-        [Required(ErrorMessage = "A Casa é obrigatório")]
-        public string Casa { get; set; }
-
-        [Display(Name = "Digite seu filme fevorito")]
-        [Required(ErrorMessage = "O filme é obrigatório")]
-        public string Filme { get; set; }
-
-        [Display(Name = "Digite seu Livro favorito")]
-        [Required(ErrorMessage = "O Livro é Obrigatório")]
+        [Display(Name = "Qual seu Livro favorito?")]
+        [StringLength(70, MinimumLength = 11, ErrorMessage = "Insira de 11 a 70 caracteres")]
         public string Livro { get; set; }
 
+        [Display(Name = "Qual seu filme preferido?")]
+        [StringLength(70, MinimumLength = 11, ErrorMessage = "Insira de 11 a 70 caracteres")]
+        public string Filme { get; set; }
 
-        [Display(Name = "Digite seu Personagem Favorito")]
-        [Required(ErrorMessage = "O Personagem é Obrigatório")]
-        public string Personagem { get; set; }
+        [Display(Name = "Qual sua Casa?")]
+        [Required(ErrorMessage = "Escolha uma casa")]
+        public string Casa { get; set; }
 
-        [Display(Name = "Escolha seu pet")]
-        [Required(ErrorMessage = "O Pet é obrigatório")]
+        [Display(Name = "Qual seu pet preferido?")]
+        [Required(ErrorMessage = "Escolha um pet")]
         public string Pet { get; set; }
-
-        [Display(Name = "Escolha Feitiço")]
-        [Required(ErrorMessage = "O Feitiço é obrigatório")]
-        public string Feitico { get; set; }
-
-
-
     }
+
 }
+
